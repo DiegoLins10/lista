@@ -1,4 +1,4 @@
-## Projeto - Calculadora IMC
+## Projeto - Lista de Tarefas
 ### Centro Paula Souza - Fatec Ferraz - Curso de Análise e Desenvolvimento de Sistemas
 ### Disciplina – Programação para dispositivos moveis II – Prof. Marcos Vasconcelos
 
