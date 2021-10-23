@@ -1,16 +1,16 @@
-# lista
+## Projeto - Calculadora IMC
+### Centro Paula Souza - Fatec Ferraz - Curso de Análise e Desenvolvimento de Sistemas
+### Disciplina – Programação para dispositivos moveis II – Prof. Marcos Vasconcelos
 
-A new Flutter project.
+- Diego Fernandes Lins
 
-## Getting Started
+### Resumo
+Um aplicativo Mobile usando flutter que você simula uma lista de tarefas, onde você pode salvar tarefas, adicionar e deletar.
 
-This project is a starting point for a Flutter application.
+### Tecnologias
+- Flutter
+- Vs code
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tela principal
+![](https://github.com/DiegoLins10/lista/blob/master/img.jpeg)
