@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
+import 'package:intl/intl.dart';
 
 main() {
   runApp(
@@ -38,8 +39,10 @@ class _HomeState extends State<Home> {
 
   void _adicionarTarefa() {
     setState(() {
+      DateTime now = DateTime.now();
+      String formattedDate = DateFormat('kk:mm dd/MM/yy').format(now);
       Map<String, dynamic> _novaTarefa = Map();
-      _novaTarefa["title"] = _toDoController.text;
+      _novaTarefa["title"] = _toDoController.text + " - " + formattedDate;
       _toDoController.text = "";
       _novaTarefa["ok"] = false;
       _toDoList.add(_novaTarefa);
@@ -164,42 +167,5 @@ class _HomeState extends State<Home> {
         });
       },
     );
-
-    //print(c);
   }
 }
-
-/*
-CheckboxListTile(
-      title: Text(_toDoList[index]["title"]),
-      value: _toDoList[index]["ok"],
-      secondary: CircleAvatar(
-        child: Icon(
-          _toDoList[index]["ok"] ? Icons.check : Icons.error,
-        ),
-      ),
-      onChanged: (c) {
-        setState(() {
-          _toDoList[index]["ok"] = c;
-          _saveData();
-        });
-        //print(c);
-      },
-    );
-*/
-
-/*
-Dismissible(
-      key: Key(DateTime.now().millisecondsSinceEpoch.toString()),
-      background: Container(
-        color: Colors.red,
-        child: Align(
-          alignment: Alignment(0.9, 0.0),
-          child: Icon(
-            Icons.delete,
-            color: Colors.white,
-          ),
-        ),
-      ),
-      direction: DismissDirection.startToEnd,
-      */
