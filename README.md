@@ -13,4 +13,4 @@ Um aplicativo Mobile usando flutter que você simula uma lista de tarefas, onde 
 - Dart
 
 ## Tela principal
-![](https://github.com/DiegoLins10/lista/blob/master/img.jpeg)
+![](https://github.com/DiegoLins10/lista/blob/master/lista.png)
